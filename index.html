@@ -58,7 +58,7 @@
               </tr>
             </thead> 
             <tbody v-for="(stu,index) in studentShow" class="text-md-start">
-              <tr v-if="stu.gpa <= 2" style="color: red;">
+              <tr v-if="stu.gpa <= 2" style="color: red;" class="fw-bold">
                 <th scope="row">{{index+1}}</th>
                 <td>{{stu.Std_ID}}</td>
                 <td>{{stu.F_name}}</td>
